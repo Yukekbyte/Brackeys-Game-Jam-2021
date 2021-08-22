@@ -1,22 +1,22 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/sande/programming related/Brackeys-Game-Jam-2021/BrackeysGameJam
+    m_FilePath: C:/Users/Lowie/Unity Games Folder/Brackeys-Game-Jam-2021/BrackeysGameJam
       aug 2021/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637652544119860850
-    m_Hash: 686281437
+      ticks: 637652271327836879
+    m_Hash: 2204306383
   m_LockFileStatus:
-    m_FilePath: C:/Users/sande/programming related/Brackeys-Game-Jam-2021/BrackeysGameJam
+    m_FilePath: C:/Users/Lowie/Unity Games Folder/Brackeys-Game-Jam-2021/BrackeysGameJam
       aug 2021/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637652544119870909
-    m_Hash: 3979380318
+      ticks: 637652271410741866
+    m_Hash: 3394294237
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -27,7 +27,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.0.4
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.2d.animation@5.0.4
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
@@ -79,6 +79,9 @@ m_PackageAssets:
         - 3.2.4
         - 3.2.5
         - 3.2.6
+        - 3.2.9
+        - 3.2.10
+        - 3.2.11
         - 4.0.0
         - 4.0.1
         - 4.1.0
@@ -95,12 +98,23 @@ m_PackageAssets:
         - 5.0.2
         - 5.0.3
         - 5.0.4
+        - 5.0.5
+        - 5.0.6
+        - 5.0.7
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 7.0.0-pre.2
+        - 7.0.0-pre.3
         compatible:
         - 5.0.4
-        verified: 5.0.4
+        - 5.0.5
+        - 5.0.6
+        - 5.0.7
+        verified: 5.0.7
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
@@ -159,7 +173,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.0.1
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
@@ -199,6 +213,7 @@ m_PackageAssets:
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.0
+        - 5.0.1
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -234,7 +249,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.0.2
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.2d.psdimporter@4.0.2
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
@@ -272,6 +287,7 @@ m_PackageAssets:
         - 2.1.4
         - 2.1.5
         - 2.1.6
+        - 2.1.8
         - 3.0.0
         - 3.1.1
         - 3.1.3
@@ -282,9 +298,15 @@ m_PackageAssets:
         - 4.0.0
         - 4.0.1
         - 4.0.2
+        - 4.1.0
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.1
+        - 5.0.3
+        - 5.0.4
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
+        - 6.0.0-pre.4
         compatible:
         - 4.0.2
         verified: 4.0.2
@@ -396,7 +418,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.1.1
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.2d.spriteshape@5.1.1
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
@@ -444,6 +466,8 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
+        - 3.0.17
         - 4.0.0
         - 4.0.1
         - 4.0.2
@@ -459,12 +483,21 @@ m_PackageAssets:
         - 5.0.2
         - 5.1.0
         - 5.1.1
+        - 5.1.2
+        - 5.1.3
+        - 5.1.4
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.0
+        - 6.0.1
+        - 7.0.0-pre.2
+        - 7.0.0-pre.3
         compatible:
         - 5.1.1
-        verified: 5.1.1
+        - 5.1.2
+        - 5.1.3
+        - 5.1.4
+        verified: 5.1.4
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
@@ -577,7 +610,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
@@ -612,6 +645,12 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.4.9
+        - 1.5.7
+        - 1.6.0
+        - 1.7.1
+        - 1.8.0
+        - 1.9.0
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -624,6 +663,10 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 1.4.9
+        - 1.5.7
+        - 1.6.0
+        - 1.8.0
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -673,7 +716,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
@@ -714,6 +757,8 @@ m_PackageAssets:
         - 3.0.3
         - 3.0.4
         - 3.0.5
+        - 3.0.6
+        - 3.0.7
         compatible:
         - 1.0.2
         - 1.0.6
@@ -738,6 +783,8 @@ m_PackageAssets:
         - 3.0.3
         - 3.0.4
         - 3.0.5
+        - 3.0.6
+        - 3.0.7
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -777,7 +824,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
@@ -807,6 +854,9 @@ m_PackageAssets:
         - 2.0.3
         - 2.0.5
         - 2.0.7
+        - 2.0.8
+        - 2.0.9
+        - 2.0.11
         compatible:
         - 1.0.2
         - 1.0.3
@@ -820,7 +870,10 @@ m_PackageAssets:
         - 2.0.3
         - 2.0.5
         - 2.0.7
-        verified: 2.0.7
+        - 2.0.8
+        - 2.0.9
+        - 2.0.11
+        verified: 2.0.11
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -859,7 +912,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
@@ -929,7 +982,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
@@ -973,9 +1026,15 @@ m_PackageAssets:
         - 1.1.20
         - 1.1.22
         - 1.1.24
+        - 1.1.26
+        - 1.1.27
+        - 1.1.29
         compatible:
         - 1.1.24
-        verified: 1.1.24
+        - 1.1.26
+        - 1.1.27
+        - 1.1.29
+        verified: 1.1.29
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -1018,7 +1077,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.4
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
@@ -1090,6 +1149,9 @@ m_PackageAssets:
         - 1.5.1
         - 1.5.3
         - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.6.0-preview.1
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -1109,6 +1171,9 @@ m_PackageAssets:
         - 2.1.1
         - 2.1.3
         - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.2.0-preview.1
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -1124,11 +1189,17 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.3
         - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.2.0-pre.1
         compatible:
         - 3.0.1
         - 3.0.3
         - 3.0.4
-        verified: 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.2.0-pre.1
+        verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -1170,7 +1241,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.6
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.timeline@1.4.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
@@ -1232,6 +1303,7 @@ m_PackageAssets:
         - 1.4.5
         - 1.4.6
         - 1.4.7
+        - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -1243,11 +1315,18 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
+        - 1.5.6
         - 1.6.0-pre.1
         - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
         compatible:
         - 1.4.6
         - 1.4.7
+        - 1.4.8
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -1259,9 +1338,15 @@ m_PackageAssets:
         - 1.5.1-pre.3
         - 1.5.2
         - 1.5.4
+        - 1.5.5
+        - 1.5.6
         - 1.6.0-pre.1
         - 1.6.0-pre.3
-        verified: 1.4.7
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -3116,7 +3201,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
@@ -3178,7 +3263,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
@@ -3254,7 +3339,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.3
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.2d.common@4.0.3
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
@@ -3337,7 +3422,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.1
       source: 1
-      resolvedPath: C:\Users\sande\programming related\Brackeys-Game-Jam-2021\BrackeysGameJam
+      resolvedPath: C:\Users\Lowie\Unity Games Folder\Brackeys-Game-Jam-2021\BrackeysGameJam
         aug 2021\Library\PackageCache\com.unity.2d.path@4.0.1
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
@@ -3399,6 +3484,6 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/sande/programming related/Brackeys-Game-Jam-2021/BrackeysGameJam
+m_ProjectPath: C:/Users/Lowie/Unity Games Folder/Brackeys-Game-Jam-2021/BrackeysGameJam
   aug 2021/Packages
 m_EditorVersion: 2020.3.2f1 (8fd9074bf66c)
