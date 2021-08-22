@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TileDetect : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class TileDetect : MonoBehaviour
     Collider2D rightTile;
     Collider2D upTile;
     Collider2D downTile;
+    Collider2D prevTile;
     public PlayerMovement mov;
 
     //This fuction should get called every time the player ARRIVES at a new tile
@@ -20,8 +22,10 @@ public class TileDetect : MonoBehaviour
         mov.goup = true;
         mov.godown = true;
 
-        //Detect adjecent tiles
+    
+        //Detect adjecent tiles + previoustile
 
+        prevTile = currentTile;
         currentTile = Physics2D.OverlapPoint(new Vector2(transform.position.x, transform.position.y));// Current point
         leftTile = Physics2D.OverlapPoint(new Vector2(transform.position.x - 1, transform.position.y));// Left point
         rightTile = Physics2D.OverlapPoint(new Vector2(transform.position.x + 1, transform.position.y));// Right point
@@ -39,5 +43,19 @@ public class TileDetect : MonoBehaviour
             mov.goup = false;
         if(downTile.CompareTag("Wall"))
             mov.godown = false;
+
+
+
+        //Enemy Tile
+        if(currentTile.CompareTag("Enemy") && !prevTile.CompareTag("Weapons"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        
+        //Finish Tile
+        if(currentTile.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }
