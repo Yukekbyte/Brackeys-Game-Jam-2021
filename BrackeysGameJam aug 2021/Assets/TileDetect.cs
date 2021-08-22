@@ -13,6 +13,10 @@ public class TileDetect : MonoBehaviour
     Collider2D prevTile;
     public PlayerMovement mov;
 
+    //specific tile related variables
+    bool poisoned;
+    int poisonCount;
+
     //This fuction should get called every time the player ARRIVES at a new tile
     public void UpdateTiles()
     {
@@ -49,6 +53,7 @@ public class TileDetect : MonoBehaviour
         //Enemy Tile
         if(currentTile.CompareTag("Enemy") && !prevTile.CompareTag("Weapons"))
         {
+            print("dead by enemy");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         
@@ -58,6 +63,29 @@ public class TileDetect : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
+        //Poison Tile
+        if(poisoned)
+        {
+            poisonCount -= 1;
+            print(poisonCount);
+        }
+        if(currentTile.CompareTag("Poison"))
+        {
+            poisoned = true;
+            poisonCount = 3; // amount of tiles you can travel before dying
+        }
+        if(poisonCount < 0)
+        {
+            print("dead by poison");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        //Antidote Tile
+        if(currentTile.CompareTag("Antidote"))
+        {
+            poisoned = false;
+        }
+        
         //INSERT LOGIC OF ALL THE FOLLOWING TILES
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Wall
   - Weapons
+  - Antidote
+  - Poison
   layers:
   - Default
   - TransparentFX
