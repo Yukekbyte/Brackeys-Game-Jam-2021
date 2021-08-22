@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
         //MovePoint position change
         if(Vector3.Distance(transform.position, movePoint.position) <= 0.001f) //if player is on movepoint, new input is allowed
         {
+            
             //Horizontal input
             if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
             {
