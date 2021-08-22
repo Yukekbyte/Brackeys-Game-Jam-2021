@@ -6,8 +6,16 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public Transform movePoint;
+    public TileDetect tileDetect;
     public float speed;
+    bool tilesUpdated = false;
+    
 
+    //Movement bools
+    public bool goleft = true;
+    public bool goright = true;
+    public bool goup = true;
+    public bool godown = true;
     void Start()
     {
         movePoint.parent = null;
@@ -19,19 +27,37 @@ public class PlayerMovement : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, speed * Time.deltaTime);
 
         //MovePoint position change
-        if(Vector3.Distance(transform.position, movePoint.position) <= 0.001f) //if player is on movepoint, new input is allowed
+        if(Vector3.Distance(transform.position, movePoint.position) <= 0.05f) //if player is on movepoint (if player arrives at new tile), new input is allowed
         {
-            
-            //Horizontal input
-            if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+            //Updates tiles only once when arriving at new tile
+            if(tilesUpdated == false)
             {
-                movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+                tileDetect.UpdateTiles();
+                tilesUpdated = true;
+            }
+
+            //Horizontal input
+            if(Input.GetKeyDown(KeyCode.A) && goleft)
+            {
+                movePoint.position += new Vector3(-1f, 0f, 0f);
+                tilesUpdated = false;
+            }
+            else if(Input.GetKeyDown(KeyCode.D) && goright)
+            {
+                movePoint.position += new Vector3(1f, 0f, 0f);
+                tilesUpdated = false;
             }
 
             //Vertical input
-            if(Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
+            else if(Input.GetKeyDown(KeyCode.W) && goup)
             {
-                movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                movePoint.position += new Vector3(0f, 1f, 0f);
+                tilesUpdated = false;
+            }
+            else if(Input.GetKeyDown(KeyCode.S) && godown)
+            {
+                movePoint.position += new Vector3(0f, -1f, 0f);
+                tilesUpdated = false;
             }
         }
     }
