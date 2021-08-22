@@ -57,5 +57,7 @@ public class TileDetect : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+
+        //INSERT LOGIC OF ALL THE FOLLOWING TILES
     }
 }
